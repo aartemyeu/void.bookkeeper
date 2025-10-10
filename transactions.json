@@ -1,0 +1,398 @@
+[
+  {
+    "booking_date": "11/10",
+    "value_date": "11/10",
+    "description": "SEPA Lastschrifteinzug von Immobilien Scout GmbH Payment Reference/E2E-Ref. 4685.1803.8240 Immobilien Scout GmbH Immobilien Scout24 Plus-Mitgliedschaft 31HA07BC815069F6357C518ED48B124C Creditor-ID DE87ZZZ00000019937 Mand-ID 4685.1803.8230 ULTD Immobilien Scout GmbH RCUR Wiederholungslastschrift",
+    "amount": "- 29.23"
+  },
+  {
+    "booking_date": "11/18",
+    "value_date": "11/18",
+    "description": "Payment Reference/E2E-Ref. PAYM.ORDER 02MT201118121998YOUR REF: ROOPDO0000000682 ARTSEMYEU ALIAKSANDR, REZ. BELARUSX,BELARUSX,G. MINSK,BTR: EUR 500,00 ZGR: Account replenishment. transferringmoney to my personal German accoun t",
+    "amount": "+ 500.00"
+  },
+  {
+    "booking_date": "11/18",
+    "value_date": "11/18",
+    "description": "Payment Reference/E2E-Ref. PAYM.ORDER 02MT201118158292YOUR REF: ROOPDO0000000691 ARTSEMYEU ALIAKSANDR, REZ. BELARUSX,BELARUSX,G. MINSK,BTR: EUR 3.300,00 0000000003 / 06500900 / 20201202 ZGR: Account replenishment. Transferringmoney to my personal account in ge rmany.",
+    "amount": "+ 3,300.00"
+  },
+  {
+    "booking_date": "11/24",
+    "value_date": "11/24",
+    "description": "SEPA « berweisung von SoundCloud Ltd. Payment Reference/E2E-Ref. Lohn / Gehalt 11/2020 000000252/000251 SALA Lohn/Gehalt Deutsche Bank",
+    "amount": "+ 4,508.30"
+  },
+  {
+    "booking_date": "11/26",
+    "value_date": "11/26",
+    "description": "SEPA « berweisung von PayPal (Europe) S.a.r.l. et Cie., S.C.A. Payment Reference/E2E-Ref. PP.2190.PP YYR1011239111836 YYR1011239111836 PP.2190.PP PAYPAL",
+    "amount": "+ 0.01"
+  },
+  {
+    "booking_date": "11/27",
+    "value_date": "11/27",
+    "description": "SEPA Lastschrifteinzug von VHV Allgemeine Versicherung AG Payment Reference/E2E-Ref. VHV Versicherung HAFTPFLICHTVERSICHERUNG H 826-621663/0000 Abrechnung: 12.11.20 - 12.11.21 31142060519 Creditor-ID DE32VHV00000150810 Mand-ID 0015011200270859 ULTD VHV Allg. Versicherung AG FRST Erstlastschrift",
+    "amount": "- 81.01"
+  },
+  {
+    "booking_date": "11/27",
+    "value_date": "11/27",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. PP.8639CODE//35314369001/DE 25-11-2020T00:00:00 Kartennr. 5354999999997631",
+    "amount": "- 1.50"
+  },
+  {
+    "booking_date": "11/27",
+    "value_date": "11/27",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. XOOM//LUXEMBOURGI/LU 25-11-2020T 12:23:00 Kartennr. 5354999999997631",
+    "amount": "- 20.00"
+  },
+  {
+    "booking_date": "11/27",
+    "value_date": "11/27",
+    "description": "SEPA « berweisung an PayPal Europe IBAN DE54120700883019585334 BIC DEUTDEDBPAL Payment Reference/E2E-Ref.",
+    "amount": "- 60.00"
+  },
+  {
+    "booking_date": "11/30",
+    "value_date": "11/30",
+    "description": "SEPA « berweisung von Deutsche Bank AG Payment Reference/E2E-Ref. 0000000003 / 06500900 / 20201202 GUTSCHRIFT DB CARD PLUS 5354999999997631 ALIAKSANDR PP*8639CODE 35314369001 25/11/2020 73040000282522820201125000000000150",
+    "amount": "+ 1.50"
+  },
+  {
+    "booking_date": "11/30",
+    "value_date": "11/30",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. DM FIL.2187 H:65425//BERLIN/DE 28-11-2020T 18:38:29 Folgenr. 09 Verfalld. 1224 Deutsche Bank",
+    "amount": "- 4.83"
+  },
+  {
+    "booking_date": "11/30",
+    "value_date": "11/30",
+    "description": "SEPA « berweisung an Hans-Peter Unger IBAN DE90100700000090060500 BIC DEUTDEBBXXX Payment Reference/E2E-Ref. Parking fee for 2 extra weeks 18.11.2020 - 02.12.2020 (room 104 Artsemyeu Aliaksandr)",
+    "amount": "- 60.00"
+  },
+  {
+    "booking_date": "11/30",
+    "value_date": "11/30",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. EDEKA Stadie//BERLIN/DE 28-11-2020T 18:34:31 Folgenr. 009 Verfalld. 1224",
+    "amount": "- 66.07"
+  },
+  {
+    "booking_date": "12/02",
+    "value_date": "12/02",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. EDEKA 5439, BERLIN//BERLIN/DE 01-12-2020 T16:22:06 Folgenr. 009 Verfalld. 1224",
+    "amount": "- 26.15"
+  },
+  {
+    "booking_date": "12/03",
+    "value_date": "12/03",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. EDEKA 5439, BERLIN//BERLIN/DE 02-12-2020 T16:28:06 Folgenr. 009 Verfalld. 1224",
+    "amount": "- 14.55"
+  },
+  {
+    "booking_date": "12/04",
+    "value_date": "12/04",
+    "description": "SEPA « berweisung von SoundCloud Ltd. Payment Reference/E2E-Ref. EXP100021343612, 2020-11-02 , 1109.68 , 1109.68 691900",
+    "amount": "+ 1,109.68"
+  },
+  {
+    "booking_date": "12/04",
+    "value_date": "12/04",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. EDEKA 5439, BERLIN//BERLIN/DE 03-12-2020 T15:55:34 Folgenr. 009 Verfalld. 1224",
+    "amount": "- 24.83"
+  },
+  {
+    "booking_date": "12/07",
+    "value_date": "12/07",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. 0000000003 / 06500900 / 20210102 DM FIL.2187 H:65425//BERLIN/DE 05-12-2020T20:10:54 Folgenr. 09 Verfalld. 1224",
+    "amount": "- 6.05"
+  },
+  {
+    "booking_date": "12/07",
+    "value_date": "12/07",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. AMZN Mktp DE.MY2MT5SA4//800-279-6620/LU 03-12-2020T00:00:00 Kartennr. 5354999999997631 Deutsche Bank",
+    "amount": "- 8.88"
+  },
+  {
+    "booking_date": "12/07",
+    "value_date": "12/07",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. AMZN Mktp DE.MY6WJ92C4//800-279-6620/LU 03-12-2020T00:00:00 Kartennr. 5354999999997631",
+    "amount": "- 21.99"
+  },
+  {
+    "booking_date": "12/07",
+    "value_date": "12/07",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. EDEKA 5439, BERLIN//BERLIN/DE 05-12-2020 T15:01:37 Folgenr. 009 Verfalld. 1224",
+    "amount": "- 26.05"
+  },
+  {
+    "booking_date": "12/07",
+    "value_date": "12/07",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. AMZN MKTP DE.MY4UI4SF4//Luxembourg/LU 03-12-2020T04:23:00 Kartennr. 5354999999997631",
+    "amount": "- 29.98"
+  },
+  {
+    "booking_date": "12/07",
+    "value_date": "12/07",
+    "description": "SEPA « berweisung an Hans-Peter Unger IBAN DE90100700000090060500 BIC DEUTDEBBXXX Payment Reference/E2E-Ref. Parking fee for 1 extra week 02.12.2020 - 09.12.2020 (room 104 Artsemyeu Aliaksandr)",
+    "amount": "- 30.00"
+  },
+  {
+    "booking_date": "12/07",
+    "value_date": "12/07",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. EDEKA Stadie//BERLIN/DE 05-12-2020T20:05:36 Folgenr. 009 Verfalld. 1224",
+    "amount": "- 35.74"
+  },
+  {
+    "booking_date": "12/07",
+    "value_date": "12/07",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. AMZN Mktp DE.MY8LY22W4//800-279-6620/LU 03-12-2020T00:00:00 Kartennr. 5354999999997631",
+    "amount": "- 45.39"
+  },
+  {
+    "booking_date": "12/07",
+    "value_date": "12/07",
+    "description": "SEPA « berweisung an Franz Eder IBAN DE12100500001064651565 BIC BELADEBEXXX Payment Reference/E2E-Ref. 1st rent fee for 12.2020 (December) starting 07.12.2020 Pariser Str. 61, 10719, BerlinArtsemyeu Aliaksandr 0000000003 / 06500900 / 20210102",
+    "amount": "- 1,112.00"
+  },
+  {
+    "booking_date": "12/07",
+    "value_date": "12/07",
+    "description": "SEPA « berweisung an Franz Eder IBAN DE12100500001064651565 BIC BELADEBEXXX Payment Reference/E2E-Ref. Secure Deposit for renting Pariser Str. 61, 10719, Berlin Artsemyeu Aliaksandr Credit Deutsche Bank",
+    "amount": "- 4,000.00"
+  },
+  {
+    "booking_date": "12/08",
+    "value_date": "12/08",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. EDEKA 5439, BERLIN//BERLIN/DE 07-12-2020 T20:41:36 Folgenr. 009 Verfalld. 1224",
+    "amount": "- 3.26"
+  },
+  {
+    "booking_date": "12/09",
+    "value_date": "12/09",
+    "description": "SEPA Lastschrifteinzug von Immobilien Scout GmbH Payment Reference/E2E-Ref. 4711.1438.6396 Immobilien Scout GmbH Immobilien Scout24 Plus-Mitgliedschaft 31HA07BC817938988AF6159D5BFBDCOF Creditor-ID DE87ZZZ00000019937 Mand-ID 4685.1803.8230 ULTD Immobilien Scout GmbH RCUR Wiederholungslastschrift",
+    "amount": "- 29.99"
+  },
+  {
+    "booking_date": "12/09",
+    "value_date": "12/09",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. AMZN Mktp DE.MS5ZE5CS4//800-279-6620/LU 07-12-2020T00:00:00 Kartennr. 5354999999997631",
+    "amount": "- 15.24"
+  },
+  {
+    "booking_date": "12/09",
+    "value_date": "12/09",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. EDEKA 5439, BERLIN//BERLIN/DE 08-12-2020 T15:13:02 Folgenr. 009 Verfalld. 1224",
+    "amount": "- 15.72"
+  },
+  {
+    "booking_date": "12/10",
+    "value_date": "12/10",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. EDEKA Stadie//BERLIN/DE 09-12-2020T21:42:58 Folgenr. 009 Verfalld. 1224",
+    "amount": "- 36.33"
+  },
+  {
+    "booking_date": "12/10",
+    "value_date": "12/10",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. SumUp .Goji Restauran//Berlin/DE 09-12-2020T 17:01:22 Folgenr. 009 Verfalld. 1224",
+    "amount": "- 20.90"
+  },
+  {
+    "booking_date": "12/14",
+    "value_date": "12/14",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. DM FIL.2187 H:65425//BERLIN/DE 11-12-2020T 17:11:14 Folgenr. 09 Verfalld. 1224 0000000003 / 06500900 / 20210102",
+    "amount": "- 4.83"
+  },
+  {
+    "booking_date": "12/14",
+    "value_date": "12/14",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. SHANIU S HOUSE OF NOODLES //Berlin/DE 12-12-2020 T14:29:19 Folgenr. 09 Verfalld. 1224",
+    "amount": "- 24.00"
+  },
+  {
+    "booking_date": "12/14",
+    "value_date": "12/14",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. EDEKA Stadie//BERLIN/DE 12-12-2020T20:47:29 Folgenr. 009 Verfalld. 1224 Credit Deutsche Bank",
+    "amount": "- 42.96"
+  },
+  {
+    "booking_date": "12/15",
+    "value_date": "12/15",
+    "description": "SEPA « berweisung von Hans-Peter Unger Payment Reference/E2E-Ref. R, ckzahlung Kaution Parkplatz",
+    "amount": "+ 120.00"
+  },
+  {
+    "booking_date": "12/16",
+    "value_date": "12/16",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. BERLINER VERKEHRSBETRIEBE (BVG)//BERLIN/DE 14-12-2020T10:51:24 Folgenr. 09 Verfalld. 1224",
+    "amount": "- 2.90"
+  },
+  {
+    "booking_date": "12/16",
+    "value_date": "12/16",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. BERLINER VERKEHRSBETRIEBE (BVG)//BERLIN/DE 14-12-2020T13:16:50 Folgenr. 09 Verfalld. 1224",
+    "amount": "- 2.90"
+  },
+  {
+    "booking_date": "12/16",
+    "value_date": "12/16",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. 02 Shop Berlin//Berlin/DE 15-12-2020T 14:34:12 Folgenr. 09 Verfalld. 1224",
+    "amount": "- 7.95"
+  },
+  {
+    "booking_date": "12/16",
+    "value_date": "12/16",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. 02 Shop Berlin//Berlin/DE 15-12-2020T14:32:55 Folgenr. 09 Verfalld. 1224",
+    "amount": "- 25.00"
+  },
+  {
+    "booking_date": "12/16",
+    "value_date": "12/16",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. EDEKA Stadie//BERLIN/DE 15-12-2020T 18:03:36 Folgenr. 009 Verfalld. 1224",
+    "amount": "- 41.15"
+  },
+  {
+    "booking_date": "12/17",
+    "value_date": "12/17",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. BERLINER VERKEHRSBETRIEBE (BVG)//BERLIN/DE 15-12-2020T 13:19:38 Folgenr. 09 Verfalld. 1224",
+    "amount": "- 9.00"
+  },
+  {
+    "booking_date": "12/18",
+    "value_date": "12/18",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. EDEKA Stadie//BERLIN/DE 17-12-2020T20:53:49 Folgenr. 009 Verfalld. 1224",
+    "amount": "- 32.79"
+  },
+  {
+    "booking_date": "12/21",
+    "value_date": "12/21",
+    "description": "SEPA « berweisung von 0000000003 / 06500900 / 20210102 SoundCloud Ltd. Payment Reference/E2E-Ref. Lohn / Gehalt 12/2020 000000003/000247 SALA Lohn/Gehalt Deutsche Bank",
+    "amount": "+ 126.97"
+  },
+  {
+    "booking_date": "12/21",
+    "value_date": "12/21",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. BERLINER VERKEHRSBETRIEBE (BVG)//BERLIN/DE 19-12-2020T 15:30:25 Folgenr. 09 Verfalld. 1224",
+    "amount": "- 9.00"
+  },
+  {
+    "booking_date": "12/21",
+    "value_date": "12/21",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. EDEKA Stadie//BERLIN/DE 19-12-2020T 19:34:09 Folgenr. 009 Verfalld. 1224",
+    "amount": "- 50.31"
+  },
+  {
+    "booking_date": "12/22",
+    "value_date": "12/22",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. DM FIL.2187 H:65425//BERLIN/DE 21-12-2020T 16:43:12 Folgenr. 09 Verfalld. 1224",
+    "amount": "- 10.05"
+  },
+  {
+    "booking_date": "12/22",
+    "value_date": "12/22",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. EDEKA Stadie//BERLIN/DE 21-12-2020T 17:03:57 Folgenr. 009 Verfalld. 1224",
+    "amount": "- 34.53"
+  },
+  {
+    "booking_date": "12/22",
+    "value_date": "12/22",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. EINWANDERUNDSBEH.//BERLIN/DE 21-12-2020 T10:47:58 Folgenr. 09 Verfalld. 1224",
+    "amount": "- 250.00"
+  },
+  {
+    "booking_date": "12/23",
+    "value_date": "12/23",
+    "description": "SEPA « berweisung von SoundCloud Ltd. Payment Reference/E2E-Ref. EXP100021764130, 2020-12-21 , 250 ,250 721749",
+    "amount": "+ 250.00"
+  },
+  {
+    "booking_date": "12/23",
+    "value_date": "12/23",
+    "description": "Bargeldauszahlung GAA Payment Reference/E2E-Ref. Shell//Berlin/DE 22-12-2020T13:54:33 Folgenr. 009 Verfalld. 1224",
+    "amount": "- 1,000.00"
+  },
+  {
+    "booking_date": "12/24",
+    "value_date": "12/24",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. AMZN Mktp DE.MJ4Y71024//800-279-6620/LU 0000000003 / 06500900 / 20210102 23-12-2020T00:00:00 Kartennr. 5354999999997631",
+    "amount": "- 36.58"
+  },
+  {
+    "booking_date": "12/24",
+    "value_date": "12/24",
+    "description": "SEPA « berweisung an Franz Eder IBAN DE12100500001064651565 BIC BELADEBEXXX Payment Reference/E2E-Ref. rent fee for 01.2021 Pariser Str. 61, 10719, Berlin Artsemyeu Aliaksandr Deutsche Bank",
+    "amount": "- 1,449.00"
+  },
+  {
+    "booking_date": "12/28",
+    "value_date": "12/23",
+    "description": "Payment Reference/E2E-Ref. GA NR08483074 BLZ100708480923.12/16.14UHR B-WILMERSD",
+    "amount": "- 100.00"
+  },
+  {
+    "booking_date": "12/28",
+    "value_date": "12/28",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. PRESSESHOP//Berlin/DE 24-12-2020T 12:12:08 Folgenr. 09 Verfalld. 1224",
+    "amount": "- 1.50"
+  },
+  {
+    "booking_date": "12/28",
+    "value_date": "12/28",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. BERLIN 158//BERLIN/DE 24-12-2020T 12:13:08 Folgenr. 09 Verfalld. 1224",
+    "amount": "- 4.00"
+  },
+  {
+    "booking_date": "12/28",
+    "value_date": "12/28",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. WEICHARDT-BROT GMBH//BERLIN/DE 23-12-2020 T16:24:26 Folgenr. 09 Verfalld. 1224",
+    "amount": "- 6.10"
+  },
+  {
+    "booking_date": "12/28",
+    "value_date": "12/28",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. NAH UND GUT VOELKER, BERLIN//BERLIN/DE 24-12-2020T 12:32:28 Folgenr. 009 Verfalld. 1224",
+    "amount": "- 23.80"
+  },
+  {
+    "booking_date": "12/28",
+    "value_date": "12/28",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. SHELL 0386// Berlin /DE 26-12-2020T 16:10:49 Folgenr. 09 Verfalld. 1224",
+    "amount": "- 50.00"
+  },
+  {
+    "booking_date": "12/29",
+    "value_date": "12/29",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. BAMUT MARKT GMBH//BERLIN/DE 28-12-2020 T15:47:00 Folgenr. 09 Verfalld. 1224",
+    "amount": "- 15.55"
+  },
+  {
+    "booking_date": "12/29",
+    "value_date": "12/29",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. AMZN Mktp DE.MJ3D21374//800-279-6620/LU 27-12-2020T00:00:00 Kartennr. 5354999999997631",
+    "amount": "- 20.99"
+  },
+  {
+    "booking_date": "12/29",
+    "value_date": "12/29",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. EDEKA Stadie//BERLIN/DE 28-12-2020T 16:29:40 Folgenr. 009 Verfalld. 1224",
+    "amount": "- 42.21"
+  },
+  {
+    "booking_date": "12/29",
+    "value_date": "12/29",
+    "description": "SEPA Lastschrifteinzug von ULLRICH SHOP 0000000003 / 06500900 / 20210102 Payment Reference/E2E-Ref. ELV61462501 26.12 15.54 ME9 ULLRICH AM ZOO/23 IC-10793303938 Creditor-ID DE59ZZZ00001581074 Mand-ID 6146250184602012261554 CGDD SEPA Lastschrift ELV OOFF Einmallastschrift Credit Deutsche Bank",
+    "amount": "- 65.53"
+  },
+  {
+    "booking_date": "12/30",
+    "value_date": "12/30",
+    "description": "SEPA Lastschrifteinzug von Telefonica Germany GmbH + Co. OHG Payment Reference/E2E-Ref. Kd-Nr.: 6067315133, Rg-Nr.: 1833519835/6, Ihr Ratenplan 3203217646330001833519835006RCUR Creditor-ID DE9700000000142462 Mand-ID T0010001B000006067315133 RCUR Wiederholungslastschrift",
+    "amount": "- 25.00"
+  },
+  {
+    "booking_date": "12/31",
+    "value_date": "12/31",
+    "description": "Kartenzahlung Payment Reference/E2E-Ref. NETFLIX.COM//866-579-71 72/NL 29-12-2020T00:00:00 Kartennr. 5354999999997631",
+    "amount": "- 15.59"
+  }
+]
