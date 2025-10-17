@@ -97,21 +97,19 @@ def extract_statement_metadata(text):
             metadata['period_to'] = f"{to_date[2]}-{to_date[1]}-{to_date[0]}"
             metadata['statement_date'] = metadata['period_to']  # Statement date is typically the end date
 
-        # Look for "Previous balance as at DD.MM.YYYY" followed by amount
-        if 'previous balance' in line.lower() or 'balance as at' in line.lower():
-            # Look for date in this line or nearby
-            date_match = re.search(r'(\d{2}\.\d{2}\.\d{4})', line)
-            # Look for amount in next few lines
-            for j in range(i, min(i+5, len(lines))):
+        # Look for "Previous balance" - the balance appears within next 25 lines
+        if 'previous balance' in line.lower() and not metadata['opening_balance']:
+            # After "Previous balance", look for first amount matching balance pattern
+            for j in range(i+1, min(i+25, len(lines))):
                 balance_match = re.match(r'^([-+]?\s*[\d,]+\.\d{2})$', lines[j])
                 if balance_match:
                     metadata['opening_balance'] = balance_match.group(1).strip()
                     break
 
-        # Look for "New balance" followed by amount
-        if line.lower() == 'new balance':
-            # Look for amount in next few lines
-            for j in range(i+1, min(i+5, len(lines))):
+        # Look for "New balance" - the balance appears within next 25 lines
+        if 'new balance' in line.lower() and not metadata['closing_balance']:
+            # After "New balance", look for first amount matching balance pattern
+            for j in range(i+1, min(i+25, len(lines))):
                 balance_match = re.match(r'^([-+]?\s*[\d,]+\.\d{2})$', lines[j])
                 if balance_match:
                     metadata['closing_balance'] = balance_match.group(1).strip()
@@ -209,6 +207,7 @@ def main():
     print(f"Found {len(pdf_files)} PDFs\n")
 
     all_transactions = []
+    all_statements = []
     temp_dir = Path(tempfile.mkdtemp(prefix='bank_ocr_'))
 
     try:
@@ -222,32 +221,52 @@ def main():
                 print("  Skipping - OCR failed\n")
                 continue
 
-            # Extract
+            # Extract metadata
+            metadata = extract_statement_metadata(text)
+            print(f"  Statement: {metadata['period_from']} to {metadata['period_to']}")
+            print(f"  Opening: {metadata['opening_balance']}, Closing: {metadata['closing_balance']}")
+
+            # Extract transactions
             transactions = extract_transactions(text)
             print(f"  Found {len(transactions)} transactions\n")
 
             all_transactions.extend(transactions)
+            all_statements.append(metadata)
 
     finally:
         shutil.rmtree(temp_dir)
         print(f"✓ Cleaned up temp files\n")
 
     print("="*80)
-    print(f"TOTAL: {len(all_transactions)} transactions\n")
+    print(f"TOTAL: {len(all_transactions)} transactions from {len(all_statements)} statements\n")
 
-    # Export JSON
+    # Export transactions to JSON
     json_file = pdf_folder.parent / 'transactions.json'
     with open(json_file, 'w', encoding='utf-8') as f:
         json.dump(all_transactions, f, indent=2, ensure_ascii=False)
     print(f"✓ Saved to {json_file}")
 
-    # Export CSV
+    # Export transactions to CSV
     csv_file = pdf_folder.parent / 'transactions.csv'
     with open(csv_file, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=['booking_date', 'value_date', 'description', 'amount'])
         writer.writeheader()
         writer.writerows(all_transactions)
-    print(f"✓ Saved to {csv_file}\n")
+    print(f"✓ Saved to {csv_file}")
+
+    # Export statements to JSON
+    statements_json_file = pdf_folder.parent / 'statements.json'
+    with open(statements_json_file, 'w', encoding='utf-8') as f:
+        json.dump(all_statements, f, indent=2, ensure_ascii=False)
+    print(f"✓ Saved to {statements_json_file}")
+
+    # Export statements to CSV
+    statements_csv_file = pdf_folder.parent / 'statements.csv'
+    with open(statements_csv_file, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, fieldnames=['statement_date', 'period_from', 'period_to', 'opening_balance', 'closing_balance'])
+        writer.writeheader()
+        writer.writerows(all_statements)
+    print(f"✓ Saved to {statements_csv_file}\n")
 
 
 if __name__ == '__main__':

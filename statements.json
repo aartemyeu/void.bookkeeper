@@ -1,0 +1,16 @@
+[
+  {
+    "statement_date": "2020-11-30",
+    "period_from": "2020-11-02",
+    "period_to": "2020-11-30",
+    "opening_balance": "+ 0.00",
+    "closing_balance": "+ 8,066.13"
+  },
+  {
+    "statement_date": "2020-12-31",
+    "period_from": "2020-12-01",
+    "period_to": "2020-12-31",
+    "opening_balance": "+ 8,066.13",
+    "closing_balance": "+ 4,494.68"
+  }
+]
