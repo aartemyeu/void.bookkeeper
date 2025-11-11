@@ -196,15 +196,25 @@ def main():
     if not check_dependencies():
         return
 
-    # Find PDFs
-    pdf_folder = Path('/Users/alexander.artemyeu/Downloads/deubank/2021')
-    pdf_files = sorted(pdf_folder.glob('Account_statement_*.pdf'))
+    # Find PDFs - use relative path from script location
+    script_dir = Path(__file__).parent
+    data_dir = script_dir.parent / 'data'
+    reports_dir = script_dir.parent / 'reports'
+
+    # Collect all Account_statement PDFs from all year folders
+    pdf_files = []
+    for year_folder in sorted(data_dir.glob('*')):
+        if year_folder.is_dir():
+            year_pdfs = sorted(year_folder.glob('Account_statement_*.pdf'))
+            if year_pdfs:
+                print(f"Found {len(year_pdfs)} PDFs in {year_folder.name}/")
+                pdf_files.extend(year_pdfs)
 
     if not pdf_files:
-        print("No Account_statement_*.pdf files found")
+        print("No Account_statement_*.pdf files found in data/ folders")
         return
 
-    print(f"Found {len(pdf_files)} PDFs\n")
+    print(f"\nTotal: {len(pdf_files)} PDFs to process\n")
 
     all_transactions = []
     all_statements = []
@@ -240,14 +250,17 @@ def main():
     print("="*80)
     print(f"TOTAL: {len(all_transactions)} transactions from {len(all_statements)} statements\n")
 
+    # Ensure reports directory exists
+    reports_dir.mkdir(exist_ok=True)
+
     # Export transactions to JSON
-    json_file = pdf_folder.parent / 'transactions.json'
+    json_file = reports_dir / 'transactions.json'
     with open(json_file, 'w', encoding='utf-8') as f:
         json.dump(all_transactions, f, indent=2, ensure_ascii=False)
     print(f"✓ Saved to {json_file}")
 
     # Export transactions to CSV
-    csv_file = pdf_folder.parent / 'transactions.csv'
+    csv_file = reports_dir / 'transactions.csv'
     with open(csv_file, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=['booking_date', 'value_date', 'description', 'amount'])
         writer.writeheader()
@@ -255,13 +268,13 @@ def main():
     print(f"✓ Saved to {csv_file}")
 
     # Export statements to JSON
-    statements_json_file = pdf_folder.parent / 'statements.json'
+    statements_json_file = reports_dir / 'statements.json'
     with open(statements_json_file, 'w', encoding='utf-8') as f:
         json.dump(all_statements, f, indent=2, ensure_ascii=False)
     print(f"✓ Saved to {statements_json_file}")
 
     # Export statements to CSV
-    statements_csv_file = pdf_folder.parent / 'statements.csv'
+    statements_csv_file = reports_dir / 'statements.csv'
     with open(statements_csv_file, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=['statement_date', 'period_from', 'period_to', 'opening_balance', 'closing_balance'])
         writer.writeheader()
