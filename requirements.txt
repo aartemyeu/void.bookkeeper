@@ -1,0 +1,15 @@
+# OCR and PDF processing dependencies
+ocrmypdf
+
+# Note: The following system dependencies must be installed separately:
+# - ghostscript (brew install ghostscript)
+# - poppler (brew install poppler) - provides pdftoppm and pdftotext
+# - imagemagick (brew install imagemagick) - provides magick command
+#
+# Installation on macOS:
+#   brew install ghostscript poppler imagemagick
+#   pip install -r requirements.txt
+#
+# Installation on Ubuntu/Debian:
+#   sudo apt-get install ghostscript poppler-utils imagemagick tesseract-ocr
+#   pip install -r requirements.txt

@@ -1,5 +1,6 @@
 [
   {
+    "year": "2020",
     "statement_date": "2020-11-30",
     "period_from": "2020-11-02",
     "period_to": "2020-11-30",
@@ -7,10 +8,507 @@
     "closing_balance": "+ 8,066.13"
   },
   {
+    "year": "2020",
     "statement_date": "2020-12-31",
     "period_from": "2020-12-01",
     "period_to": "2020-12-31",
     "opening_balance": "+ 8,066.13",
     "closing_balance": "+ 4,494.68"
+  },
+  {
+    "year": "2021",
+    "statement_date": "2021-01-29",
+    "period_from": "2021-01-01",
+    "period_to": "2021-01-29",
+    "opening_balance": "+ 4,494.68",
+    "closing_balance": "+ 6,113.56"
+  },
+  {
+    "year": "2021",
+    "statement_date": "2021-02-26",
+    "period_from": "2021-01-30",
+    "period_to": "2021-02-26",
+    "opening_balance": "+ 6,113.56",
+    "closing_balance": "+ 7,398.30"
+  },
+  {
+    "year": "2021",
+    "statement_date": "2021-03-31",
+    "period_from": "2021-02-27",
+    "period_to": "2021-03-31",
+    "opening_balance": "+ 7,398.30",
+    "closing_balance": "+ 7,558.82"
+  },
+  {
+    "year": "2021",
+    "statement_date": "2021-04-30",
+    "period_from": "2021-04-01",
+    "period_to": "2021-04-30",
+    "opening_balance": "+ 7,558.82",
+    "closing_balance": "+ 6,893.78"
+  },
+  {
+    "year": "2021",
+    "statement_date": "2021-05-31",
+    "period_from": "2021-05-01",
+    "period_to": "2021-05-31",
+    "opening_balance": "+ 6,893.78",
+    "closing_balance": "+ 6,877.46"
+  },
+  {
+    "year": "2021",
+    "statement_date": "2021-06-30",
+    "period_from": "2021-06-01",
+    "period_to": "2021-06-30",
+    "opening_balance": "+ 6,877.46",
+    "closing_balance": "+ 6,318.88"
+  },
+  {
+    "year": "2021",
+    "statement_date": "2021-07-30",
+    "period_from": "2021-07-01",
+    "period_to": "2021-07-30",
+    "opening_balance": "+ 6,318.88",
+    "closing_balance": "+ 5,264.33"
+  },
+  {
+    "year": "2021",
+    "statement_date": "2021-08-31",
+    "period_from": "2021-07-31",
+    "period_to": "2021-08-31",
+    "opening_balance": "+ 5,264.33",
+    "closing_balance": "+ 5,162.53"
+  },
+  {
+    "year": "2021",
+    "statement_date": "2021-09-30",
+    "period_from": "2021-09-01",
+    "period_to": "2021-09-30",
+    "opening_balance": "+ 5,162.53",
+    "closing_balance": "+ 4,481.77"
+  },
+  {
+    "year": "2021",
+    "statement_date": "2021-10-29",
+    "period_from": "2021-10-01",
+    "period_to": "2021-10-29",
+    "opening_balance": "+ 4,481.77",
+    "closing_balance": "+ 11,616.49"
+  },
+  {
+    "year": "2021",
+    "statement_date": "2021-11-30",
+    "period_from": "2021-10-30",
+    "period_to": "2021-11-30",
+    "opening_balance": "+ 11,616.49",
+    "closing_balance": "+ 3,137.55"
+  },
+  {
+    "year": "2021",
+    "statement_date": "2021-12-31",
+    "period_from": "2021-12-01",
+    "period_to": "2021-12-31",
+    "opening_balance": "+ 3,137.55",
+    "closing_balance": "+ 3,909.87"
+  },
+  {
+    "year": null,
+    "statement_date": null,
+    "period_from": null,
+    "period_to": null,
+    "opening_balance": null,
+    "closing_balance": null
+  },
+  {
+    "year": null,
+    "statement_date": null,
+    "period_from": null,
+    "period_to": null,
+    "opening_balance": null,
+    "closing_balance": null
+  },
+  {
+    "year": "2022",
+    "statement_date": "2022-01-31",
+    "period_from": "2022-01-01",
+    "period_to": "2022-01-31",
+    "opening_balance": "+ 3,909.87",
+    "closing_balance": "+ 2,963.39"
+  },
+  {
+    "year": "2022",
+    "statement_date": "2022-02-28",
+    "period_from": "2022-02-01",
+    "period_to": "2022-02-28",
+    "opening_balance": "+ 2,963.39",
+    "closing_balance": "+ 3,060.45"
+  },
+  {
+    "year": "2022",
+    "statement_date": "2022-03-31",
+    "period_from": "2022-03-01",
+    "period_to": "2022-03-31",
+    "opening_balance": "+ 3,060.45",
+    "closing_balance": "+ 3,544.55"
+  },
+  {
+    "year": "2022",
+    "statement_date": "2022-04-29",
+    "period_from": "2022-04-01",
+    "period_to": "2022-04-29",
+    "opening_balance": "+ 3,544.55",
+    "closing_balance": "+ 1,027.82"
+  },
+  {
+    "year": "2022",
+    "statement_date": "2022-05-31",
+    "period_from": "2022-04-30",
+    "period_to": "2022-05-31",
+    "opening_balance": "+ 1,027.82",
+    "closing_balance": "+ 4,369.51"
+  },
+  {
+    "year": "2022",
+    "statement_date": "2022-06-30",
+    "period_from": "2022-06-01",
+    "period_to": "2022-06-30",
+    "opening_balance": "+ 4,369.51",
+    "closing_balance": "+ 827.48"
+  },
+  {
+    "year": "2022",
+    "statement_date": "2022-07-29",
+    "period_from": "2022-07-01",
+    "period_to": "2022-07-29",
+    "opening_balance": "+ 827.48",
+    "closing_balance": "+ 9,738.66"
+  },
+  {
+    "year": "2022",
+    "statement_date": "2022-08-31",
+    "period_from": "2022-07-30",
+    "period_to": "2022-08-31",
+    "opening_balance": "+ 9,738.66",
+    "closing_balance": "+ 8,285.79"
+  },
+  {
+    "year": "2022",
+    "statement_date": "2022-09-30",
+    "period_from": "2022-09-01",
+    "period_to": "2022-09-30",
+    "opening_balance": "+ 8,285.79",
+    "closing_balance": "+ 9,966.15"
+  },
+  {
+    "year": "2022",
+    "statement_date": "2022-10-31",
+    "period_from": "2022-10-01",
+    "period_to": "2022-10-31",
+    "opening_balance": "+ 9,966.15",
+    "closing_balance": "+ 9,496.53"
+  },
+  {
+    "year": "2022",
+    "statement_date": "2022-11-30",
+    "period_from": "2022-11-01",
+    "period_to": "2022-11-30",
+    "opening_balance": "+ 9,496.53",
+    "closing_balance": "+ 8,862.91"
+  },
+  {
+    "year": "2022",
+    "statement_date": "2022-12-30",
+    "period_from": "2022-12-01",
+    "period_to": "2022-12-30",
+    "opening_balance": "+ 8,862.91",
+    "closing_balance": "+ 8,339.88"
+  },
+  {
+    "year": null,
+    "statement_date": null,
+    "period_from": null,
+    "period_to": null,
+    "opening_balance": null,
+    "closing_balance": null
+  },
+  {
+    "year": "2023",
+    "statement_date": "2023-01-31",
+    "period_from": "2022-12-31",
+    "period_to": "2023-01-31",
+    "opening_balance": "+ 8,339.88",
+    "closing_balance": "+ 8,394.90"
+  },
+  {
+    "year": "2023",
+    "statement_date": "2023-02-28",
+    "period_from": "2023-02-01",
+    "period_to": "2023-02-28",
+    "opening_balance": "+ 8,394.90",
+    "closing_balance": "+ 8,915.28"
+  },
+  {
+    "year": "2023",
+    "statement_date": "2023-03-31",
+    "period_from": "2023-03-01",
+    "period_to": "2023-03-31",
+    "opening_balance": "+ 8,915.28",
+    "closing_balance": "+ 10,916.86"
+  },
+  {
+    "year": "2023",
+    "statement_date": "2023-04-28",
+    "period_from": "2023-04-01",
+    "period_to": "2023-04-28",
+    "opening_balance": "+ 10,916.86",
+    "closing_balance": "+ 2,215.02"
+  },
+  {
+    "year": "2023",
+    "statement_date": "2023-05-31",
+    "period_from": "2023-04-29",
+    "period_to": "2023-05-31",
+    "opening_balance": null,
+    "closing_balance": "+ 8,834.74"
+  },
+  {
+    "year": "2023",
+    "statement_date": "2023-06-30",
+    "period_from": "2023-06-01",
+    "period_to": "2023-06-30",
+    "opening_balance": "+ 8,834.74",
+    "closing_balance": "+ 7,498.31"
+  },
+  {
+    "year": "2023",
+    "statement_date": "2023-07-31",
+    "period_from": "2023-07-01",
+    "period_to": "2023-07-31",
+    "opening_balance": "+ 7,498.31",
+    "closing_balance": "+ 10,898.19"
+  },
+  {
+    "year": "2023",
+    "statement_date": "2023-08-31",
+    "period_from": "2023-08-01",
+    "period_to": "2023-08-31",
+    "opening_balance": "+ 10,898.19",
+    "closing_balance": "+ 9,477.51"
+  },
+  {
+    "year": "2023",
+    "statement_date": "2023-09-29",
+    "period_from": "2023-09-01",
+    "period_to": "2023-09-29",
+    "opening_balance": "+ 9,477.51",
+    "closing_balance": "+ 8,102.38"
+  },
+  {
+    "year": "2023",
+    "statement_date": "2023-10-31",
+    "period_from": "2023-09-30",
+    "period_to": "2023-10-31",
+    "opening_balance": "+ 8,102.38",
+    "closing_balance": "+ 17,529.80"
+  },
+  {
+    "year": "2023",
+    "statement_date": "2023-11-30",
+    "period_from": "2023-11-01",
+    "period_to": "2023-11-30",
+    "opening_balance": null,
+    "closing_balance": "+ 15,602.18"
+  },
+  {
+    "year": "2023",
+    "statement_date": "2023-12-29",
+    "period_from": "2023-12-01",
+    "period_to": "2023-12-29",
+    "opening_balance": "+ 15,602.18",
+    "closing_balance": "+ 15,021.83"
+  },
+  {
+    "year": null,
+    "statement_date": null,
+    "period_from": null,
+    "period_to": null,
+    "opening_balance": null,
+    "closing_balance": null
+  },
+  {
+    "year": "2024",
+    "statement_date": "2024-01-31",
+    "period_from": "2023-12-30",
+    "period_to": "2024-01-31",
+    "opening_balance": "+ 15,021.83",
+    "closing_balance": "+ 11,012.05"
+  },
+  {
+    "year": "2024",
+    "statement_date": "2024-02-29",
+    "period_from": "2024-02-01",
+    "period_to": "2024-02-29",
+    "opening_balance": "+ 11,012.05",
+    "closing_balance": "+ 8,901.73"
+  },
+  {
+    "year": "2024",
+    "statement_date": "2024-03-28",
+    "period_from": "2024-03-01",
+    "period_to": "2024-03-28",
+    "opening_balance": null,
+    "closing_balance": "+ 8,290.86"
+  },
+  {
+    "year": "2024",
+    "statement_date": "2024-04-30",
+    "period_from": "2024-03-29",
+    "period_to": "2024-04-30",
+    "opening_balance": "+ 8,290.86",
+    "closing_balance": "+ 8,676.31"
+  },
+  {
+    "year": "2024",
+    "statement_date": "2024-05-31",
+    "period_from": "2024-05-01",
+    "period_to": "2024-05-31",
+    "opening_balance": null,
+    "closing_balance": "- 21.93"
+  },
+  {
+    "year": "2024",
+    "statement_date": "2024-06-28",
+    "period_from": "2024-06-01",
+    "period_to": "2024-06-28",
+    "opening_balance": null,
+    "closing_balance": "+ 8,466.53"
+  },
+  {
+    "year": "2024",
+    "statement_date": "2024-07-31",
+    "period_from": "2024-06-29",
+    "period_to": "2024-07-31",
+    "opening_balance": "+ 8,466.53",
+    "closing_balance": "+ 9,345.33"
+  },
+  {
+    "year": "2024",
+    "statement_date": "2024-08-30",
+    "period_from": "2024-08-01",
+    "period_to": "2024-08-30",
+    "opening_balance": "+ 9,345.33",
+    "closing_balance": "+ 7,514.01"
+  },
+  {
+    "year": "2024",
+    "statement_date": "2024-09-30",
+    "period_from": "2024-08-31",
+    "period_to": "2024-09-30",
+    "opening_balance": "+ 7,514.01",
+    "closing_balance": "+ 7,639.98"
+  },
+  {
+    "year": "2024",
+    "statement_date": "2024-10-31",
+    "period_from": "2024-10-01",
+    "period_to": "2024-10-31",
+    "opening_balance": "+ 7,639.98",
+    "closing_balance": "+ 8,123.61"
+  },
+  {
+    "year": "2024",
+    "statement_date": "2024-11-29",
+    "period_from": "2024-11-01",
+    "period_to": "2024-11-29",
+    "opening_balance": "+ 8,123.61",
+    "closing_balance": "+ 7,837.77"
+  },
+  {
+    "year": "2024",
+    "statement_date": "2024-12-31",
+    "period_from": "2024-11-30",
+    "period_to": "2024-12-31",
+    "opening_balance": null,
+    "closing_balance": "+ 6,514.69"
+  },
+  {
+    "year": "2025",
+    "statement_date": "2025-01-31",
+    "period_from": "2025-01-01",
+    "period_to": "2025-01-31",
+    "opening_balance": "+ 6,514.69",
+    "closing_balance": "+ 1,352.02"
+  },
+  {
+    "year": "2025",
+    "statement_date": "2025-02-28",
+    "period_from": "2025-02-01",
+    "period_to": "2025-02-28",
+    "opening_balance": null,
+    "closing_balance": "+ 7,946.73"
+  },
+  {
+    "year": "2025",
+    "statement_date": "2025-03-31",
+    "period_from": "2025-03-01",
+    "period_to": "2025-03-31",
+    "opening_balance": "+ 7,946.73",
+    "closing_balance": "+ 6,278.64"
+  },
+  {
+    "year": "2025",
+    "statement_date": "2025-04-30",
+    "period_from": "2025-04-01",
+    "period_to": "2025-04-30",
+    "opening_balance": "+ 6,278.64",
+    "closing_balance": "+ 9,042.22"
+  },
+  {
+    "year": "2025",
+    "statement_date": "2025-05-30",
+    "period_from": "2025-05-01",
+    "period_to": "2025-05-30",
+    "opening_balance": "+ 9,042.22",
+    "closing_balance": "+ 8,056.89"
+  },
+  {
+    "year": "2025",
+    "statement_date": "2025-06-30",
+    "period_from": "2025-05-31",
+    "period_to": "2025-06-30",
+    "opening_balance": "+ 8,056.89",
+    "closing_balance": "+ 7,980.64"
+  },
+  {
+    "year": "2025",
+    "statement_date": "2025-07-31",
+    "period_from": "2025-07-01",
+    "period_to": "2025-07-31",
+    "opening_balance": "+ 7,980.64",
+    "closing_balance": "+ 9,182.79"
+  },
+  {
+    "year": "2025",
+    "statement_date": "2025-08-29",
+    "period_from": "2025-08-01",
+    "period_to": "2025-08-29",
+    "opening_balance": "+ 9,182.79",
+    "closing_balance": "+ 8,747.75"
+  },
+  {
+    "year": "2025",
+    "statement_date": "2025-09-30",
+    "period_from": "2025-08-30",
+    "period_to": "2025-09-30",
+    "opening_balance": "+ 8,747.75",
+    "closing_balance": "+ 9,828.91"
+  },
+  {
+    "year": null,
+    "statement_date": null,
+    "period_from": null,
+    "period_to": null,
+    "opening_balance": null,
+    "closing_balance": null
   }
 ]

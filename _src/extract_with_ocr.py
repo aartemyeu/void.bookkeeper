@@ -77,6 +77,7 @@ def ocr_pdf(pdf_path, temp_dir):
 def extract_statement_metadata(text):
     """Extract statement-level metadata (dates and balances)"""
     metadata = {
+        'year': None,
         'statement_date': None,
         'period_from': None,
         'period_to': None,
@@ -96,6 +97,7 @@ def extract_statement_metadata(text):
             metadata['period_from'] = f"{from_date[2]}-{from_date[1]}-{from_date[0]}"
             metadata['period_to'] = f"{to_date[2]}-{to_date[1]}-{to_date[0]}"
             metadata['statement_date'] = metadata['period_to']  # Statement date is typically the end date
+            metadata['year'] = to_date[2]  # Year from the end date
 
         # Look for "Previous balance" - the balance appears within next 25 lines
         if 'previous balance' in line.lower() and not metadata['opening_balance']:
@@ -118,10 +120,19 @@ def extract_statement_metadata(text):
     return metadata
 
 
-def extract_transactions(text):
+def extract_transactions(text, period_from=None, period_to=None):
     """Extract transactions from OCR'd bank statement table"""
     transactions = []
     lines = [line.strip() for line in text.split('\n')]
+
+    # Determine year from statement period
+    # Transactions span from period_from to period_to, may cross year boundary
+    year_from = None
+    year_to = None
+    if period_from:
+        year_from = int(period_from.split('-')[0])
+    if period_to:
+        year_to = int(period_to.split('-')[0])
 
     i = 0
     while i < len(lines):
@@ -129,7 +140,7 @@ def extract_transactions(text):
 
         # Look for booking date (MM/DD format)
         if re.match(r'^\d{2}/\d{2}$', line):
-            booking_date = line
+            booking_date_mm_dd = line
             i += 1
 
             # Next should be value date (or skip blank lines)
@@ -139,7 +150,7 @@ def extract_transactions(text):
             if i >= len(lines) or not re.match(r'^\d{2}/\d{2}$', lines[i]):
                 continue
 
-            value_date = lines[i]
+            value_date_mm_dd = lines[i]
             i += 1
 
             # Collect description and look for amount
@@ -175,6 +186,10 @@ def extract_transactions(text):
             description = ' '.join(description_parts).strip()
 
             if description and amount:
+                # Convert MM/DD to YYYY-MM-DD format
+                booking_date = convert_mm_dd_to_full_date(booking_date_mm_dd, period_from, period_to)
+                value_date = convert_mm_dd_to_full_date(value_date_mm_dd, period_from, period_to)
+
                 transactions.append({
                     'booking_date': booking_date,
                     'value_date': value_date,
@@ -185,6 +200,38 @@ def extract_transactions(text):
             i += 1
 
     return transactions
+
+
+def convert_mm_dd_to_full_date(mm_dd, period_from, period_to):
+    """Convert MM/DD format to YYYY-MM-DD using statement period"""
+    if not mm_dd or not period_from or not period_to:
+        return mm_dd
+
+    try:
+        month, day = mm_dd.split('/')
+        month = int(month)
+        day = int(day)
+
+        # Parse period dates
+        from_year, from_month, from_day = map(int, period_from.split('-'))
+        to_year, to_month, to_day = map(int, period_to.split('-'))
+
+        # Determine which year the transaction belongs to
+        # If statement crosses year boundary, use logic to assign correct year
+        if from_year == to_year:
+            # Statement within single year
+            year = from_year
+        else:
+            # Statement crosses year boundary
+            # If month >= from_month, use from_year; else use to_year
+            if month >= from_month:
+                year = from_year
+            else:
+                year = to_year
+
+        return f"{year}-{month:02d}-{day:02d}"
+    except:
+        return mm_dd
 
 
 def main():
@@ -236,8 +283,8 @@ def main():
             print(f"  Statement: {metadata['period_from']} to {metadata['period_to']}")
             print(f"  Opening: {metadata['opening_balance']}, Closing: {metadata['closing_balance']}")
 
-            # Extract transactions
-            transactions = extract_transactions(text)
+            # Extract transactions with period info for date conversion
+            transactions = extract_transactions(text, metadata['period_from'], metadata['period_to'])
             print(f"  Found {len(transactions)} transactions\n")
 
             all_transactions.extend(transactions)
@@ -276,7 +323,7 @@ def main():
     # Export statements to CSV
     statements_csv_file = reports_dir / 'statements.csv'
     with open(statements_csv_file, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=['statement_date', 'period_from', 'period_to', 'opening_balance', 'closing_balance'])
+        writer = csv.DictWriter(f, fieldnames=['year', 'statement_date', 'period_from', 'period_to', 'opening_balance', 'closing_balance'])
         writer.writeheader()
         writer.writerows(all_statements)
     print(f"✓ Saved to {statements_csv_file}\n")
